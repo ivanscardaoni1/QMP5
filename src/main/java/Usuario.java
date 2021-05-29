@@ -12,9 +12,6 @@ public class Usuario {
     propuestasPendientes.add(propuesta);
   }
 
-  public void proponer(Propuesta propuesta, Usuario usuario) {
-    usuario.recibirPropuesta(propuesta);
-  }
 
   public void aceptar(Propuesta propuesta) {
     propuesta.ejecutar();
